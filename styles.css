@@ -1,1 +1,59 @@
+body {font-family: Tahoma;}
+
+.navbar-brand{font-family: lobster;
+			  font-size: 16pt}
+
+div.jumbotron {margin-top: 40px;
+			   margin-bottom: 250px;
+			   border-color: #FFF;}			  
+
 div#crystal {margin: 10px auto;}
+
+.well {margin-left: 50px;
+	   margin-right: 50px;}   
+
+a#github {background: url('github2.png') no-repeat center 15px;
+		  padding: 20px 30px 20px 30px;}   
+
+#github:hover {background: url('github-black.png') no-repeat center 15px;
+		 	   padding: 20px 30px 10px 30px;}
+
+a#linkedin {background: url('linkedin.png') no-repeat center 15px;
+		 	padding: 20px 30px 40px 30px;}
+
+
+a#linkedin:hover {background: url('linkedin2.png') no-repeat center 15px;
+		 	      padding: 20px 30px 40px 30px;}
+
+a#stack {background: url('stack.png') no-repeat center 15px;
+		 	padding: 20px 30px 40px 30px;}
+
+
+a#stack:hover {background: url('stack2.png') no-repeat center 15px;
+		 	      padding: 20px 30px 40px 30px;}		 	      		 	 		 	     
+
+ul#social_media li:first-child {border-left: 1px solid rgba(255, 255, 255, 0.1);}
+
+ul#social_media li a{border-right: none;
+					 border-left: none;}  
+
+.thumbnail {border-color: #DDDDDD;
+			float: left;}
+
+.page-header {border-bottom: 2px ridge #bfbfbf;}	
+
+textarea {width: 98%;
+		  border: 2px solid #F5F5F5;
+		  margin-top: 10px;}
+
+input {border: 2px solid #F5F5F5;
+	   width: 95%;
+	   padding: 10px;
+	   margin-top: 10px;
+	   margin-bottom: 20px;}
+
+button {background-color: silver;
+		color: #FFF;
+		border: none;
+		padding: 10px 30px;
+		margin-top: 10px;}		

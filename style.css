@@ -1,0 +1,305 @@
+/*html, body {width: 100%;}*/
+
+body {font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	  color: #777777;
+	  height: 100%;}
+
+h2 {font-family: 'Georgia', Times, 'Times New Roman', serif;
+	font-size: 20pt;
+	font-weight: 800;}
+
+
+h3{font-family: 'Georgia', Times, 'Times New Roman', serif;
+	font-size: 14pt;
+	font-weight: bold;
+	color: #4aaaa5;}	
+
+a {text-decoration: none;}
+
+
+#label {margin-top: 5px;}
+
+textarea {width: 98%;
+		  border: 2px solid #F5F5F5;
+		  margin-top: 10px;}
+
+input {border: 2px solid #F5F5F5;
+	   width: 95%;
+	   padding: 10px;
+	   margin-top: 10px;
+	   margin-bottom: 20px;}
+
+button {background-color: #4aaaa5;
+		color: #FFF;
+		border: none;
+		padding: 10px 30px;
+		margin-top: 10px;}	   
+
+div#container {/*width: 1100px;*/
+			   width: 100%;
+			   height: 100%;}
+
+div#heading {border-bottom: 2px solid #CFCFCF;
+			 background-color: #FFF;}
+
+div#name {background-color: #4aaaa5;
+		  color: #FFF;
+		  padding: 20px;
+		  width: 150px;
+		  position: relative;
+		  top: 35px;
+		  left: 100px;}
+
+div#nav {color: #C3D3E3;
+		 position: relative;
+		 left: 500px;
+		 width: 300px;
+		 bottom: 25px;}
+
+div#nav ul {width: 300px;}
+
+div#nav ul li {display: inline-block;}					 
+
+div#nav ul li a{list-style-type: none;
+				display: inline-block;
+			    padding: 10px;}
+
+div#nav a {color: #777777;}	
+
+div#nav a:visited {color: #777777;}	
+
+div#nav li a:hover {background-color: #777777;
+				 color: #FFF;
+				 padding: 10px;}
+
+div#content	{background-image: url('../images/dark_embroidery.png');
+			 padding-bottom: 100px;
+			 overflow: auto;}
+
+div#mc_container {background-color: #FFF;
+				  width: 648px;
+				  /*position: relative;
+				  left: 5%;
+				  top: 45px;*/
+				  float: left;
+				  border: 1px solid #dddddd;
+				  overflow: auto;
+				  margin-top: 30px;
+				  margin-left: 100px;}
+
+div#main_content {margin: 30px;}				  
+
+h2#title {border-bottom: 3px solid #dddddd;
+		  padding-bottom: 25px;
+		  padding-top:20px;
+		  color: #4aaaa5;}
+
+div#text {margin-top: 30px;}
+
+img#Crystal {float: left;
+			 padding-right: 25px;
+			 padding-bottom: 15px;}
+
+p#aboutMe {line-height: 2;}
+
+div.right {margin-right: 27px;}			 		  
+
+div#social_media {background-color: #FFF;
+				  width: 268px;
+				  border: 1px solid #dddddd;
+				  /*position: absolute;
+  				  bottom: 59%;
+  				  left: 44%;*/
+  				  float: left;
+  				  margin-top: 30px;
+  				  margin-left: 40px;}
+
+div#sm_content {width: 80%;
+				margin: 20px auto;}				  
+
+h3#sm_title {border-bottom: 3px solid #dddddd;
+			 padding-bottom: 25px;
+			 margin: 0 auto;}
+
+div#social_media ul {margin-top: 20px;}					 
+
+div#social_media ul li {display: inline-block;}
+
+div#inputs {margin-top: 20px;}
+
+div#footer {background-color: #666666;
+			padding-top: 35px;
+			padding-bottom: 35px;
+			border-top: 8px solid #4aaaa5;}
+
+p#foot_text {color: #FFF;
+			 text-align: center;}
+
+div.img_container {float: left;
+				   margin-top: 30px;
+				   margin-bottom: 10px;
+				   /*height: 182px*/}
+
+div.img_container img {width: 278px;
+					   height: 185px}				   
+
+div.img_desc {background-color: #4aaaa5;
+			  text-align: center;
+			  color: #FFF;
+			  width: 100%;
+			  font-family: 'Georgia', Times, 'Times New Roman', serif;
+			  padding-top: 15px;
+			  padding-bottom: 15px;
+			  position: relative;
+			  bottom: 55px;}
+
+@media screen and (max-width: 980px) {
+
+	div#container {/*width: 859px;*/
+				   width: 100%}
+
+	div#heading {width: 100%;}
+
+
+	div#mc_container {width: 500px;
+					  margin-left: 42px}
+
+	img#Crystal {float: none;
+				 width: 445px;
+				 height: 425px;}
+
+	div#heading {height: 95px;}
+
+	div#name {top:2px;
+			  left: 42px;}
+
+	div#nav {bottom: 65px;
+			 /*left: 575px;*/
+			 left: 65%;
+			 width: 250px}
+
+	div#nav ul {width: 250px;}		 
+
+	div#social_media {margin-left: 20px}
+
+	div.img_desc {width: 100%;}
+
+	div.img_container img {width: 438px;
+						   height: 290px}
+
+	div.img_container {width: 438px;
+					   height: 290px}
+
+
+}
+
+@media screen and (max-width: 768px) {
+
+	div#social_media {float: none;
+					  margin-top: 30px;
+  				      margin-left: 0;
+  				  	  position: relative;
+  				  	  top: 20px;
+  				  	  left: 20px;
+  				  	  width: 620px}
+
+	div#mc_container {float: none;
+					  position: relative;
+					  right: 20px;
+					  width: 620px}
+
+	div#name {left: 20px;}	
+	
+	img#Crystal {float: left;
+				 width: 126px;
+				 height: 126px;}
+
+	div#sm_content {width: 90%;}
+
+	div#nav {left: 410px;}	
+
+	div#footer {width: 100%;}
+
+	div#container {width: 100%}
+
+	div#nav {width: 250px;}
+
+	div#nav ul {width: 250px;}
+
+	div.img_container img {width: 265px;
+						   height: auto}
+
+	div.img_desc {width: 100%}
+	
+	div.img_container {float: left;
+				   	   margin-top: 30px;
+				   	   width: 265px;
+				   	   height: auto;}
+
+	div.right {margin-right: 30px}			   	   					   		 		  
+
+}
+
+@media screen and (max-width: 640px) {
+
+	div#cancel_style {margin-top: 30px;}
+
+	div#container {/*width: 550px;*/
+				   width: 100%}
+
+	div#mc_container {width: 100%;
+					  /*overflow: visible;*/
+					  overflow: auto;}
+
+	div#heading {width: 100%;
+				 height: 100%}
+
+	div#content {width: 100%}			 
+
+	div#name h2 {text-align: center;
+				 width: 80%;
+				 padding-left: 0;
+				 padding-right: 0}			 
+
+	div#name {width: 100%;
+			  position: static;
+			  padding-top: 30px;
+			  padding-bottom: 30px;
+			  padding-left: 0;
+			  padding-right: 0}
+
+	div#nav {width: 100%;
+			 position: static;}
+
+	div#nav ul {width: 100%;
+				text-align: center}
+
+	div#nav ul li {padding: 17px;}		 
+
+	img#Crystal {float: none;
+				 width: 445px;
+				 height: 425px;
+				 padding-right: 0;}
+
+	div#mc_container {width: 90%}
+
+	div.img_container {float: none;
+					   margin-top: 40px;
+					   width: 438px;
+					   height: 380px}
+
+	div.img_container img {width: 438px;
+						   height: 380px}
+
+	div.img_desc {width: 100%}					   
+
+	div#social_media {width: 90%;
+					  margin-top: 30px}		  
+
+}
+
+
+
+
+
+
